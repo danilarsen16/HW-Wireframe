@@ -9,10 +9,17 @@
     width: 960px;
     line-height: 32px;
     font-size: 18px;
+    color: #777
+  }
+
+  #page-wrap {
+    width: 950px;
+    margin: 0 auto;
+    margin-left: 275px;
   }
   
   header {
-    padding: 15px;
+    padding: 30px;
     margin-top: 15px;
     margin-bottom: 10px;
     color: #777;
@@ -20,17 +27,16 @@
   }
   
   #nav {
-    padding: 15px;
+    padding: 30px;
     margin-bottom: 20px;
-    color: #777;    
     background: #ebebeb;
   }
 
 
   #section {
     padding: 10px;
+    padding-top: 28px;
     margin-bottom: 20px;
-    color: #777;
     background: #ebebeb;
     width: 52%;
     height: 300px;
@@ -41,43 +47,47 @@
   
   
   #article {
-    width: 87%;
-    height: 180px;
+    width: 98%;
+    height: 215px;
     padding: 20px;
-    padding-bottom: 20px;
-    margin-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
     background: #777;
     color: #ebebeb;
     float: left;
   }
 
   #heading {
-    width: 340px;
-    height: 40px;
+    width: 430px;
+    height: 60px;
     padding: 10px;
-    margin-left: 10px;
+    padding: 15px;
+    margin-left: -3px;
+    margin-top: 20px;
     background:#ebebeb;
     color: #777;
     font-weight: bold;
+    font-size: 23px
 }
 
-#P {
-  width: 340px;
-  height: 40px;
-  padding: 10px;
-  margin-left: 10px;
-  margin-top: 15px;
-  background:#ebebeb;
-  color: #333;
+  #P {
+    width: 430px;
+    height: 60px;
+    padding: 10px;
+    margin-left: -3px;
+    margin-top: 12px;
+    background:#ebebeb;
+    color: #777;
 }
 
 
-#h1 {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #eee;
-  float: left;
+  #h1 {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #eee;
+    float: left;
   }
 
 
@@ -89,18 +99,17 @@
     margin-left: 30px;
     background: #ebebeb;
     border: 1px solid #eee;
-    color: #777;
     float: right;
     overflow: hidden;
   }
 
  
 
-
   footer {
     padding: 20px;
+    padding-top: 30px;
     margin-bottom: 20px;
-    color: #777;
     background: #ebebeb;
+    height: 100px;
     float: center;
   }
